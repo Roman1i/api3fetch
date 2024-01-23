@@ -1,0 +1,37 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#photo {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 800px;
+    justify-content: center;
+}
+
+.image {
+    height: 600px;
+}
+
+.likes {
+    padding: 15px;
+    width: 150px;
+    background-color: rgb(192, 191, 191);
+    color: rgb(54, 54, 54);
+    border-radius: 15px;
+}
+
+.likes:hover {
+    background-color: rgb(212, 22, 54);
+    color: bisque;
+}
